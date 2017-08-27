@@ -16,7 +16,7 @@
 include vendor/nexus/configs/pure_phone.mk
 
 # Inherit AOSP device configuration for angler
-$(call inherit-product, device/huawei/angler/aosp_angler.mk)
+$(call inherit-product, device/samsung/kyleproxx/device_kyleproxx.mk)
 
 # Override AOSP build properties
 PRODUCT_DEVICE := kyleproxx
