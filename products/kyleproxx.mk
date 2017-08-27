@@ -19,17 +19,17 @@ include vendor/nexus/configs/pure_phone.mk
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := angler
-PRODUCT_BRAND := google
-PRODUCT_DEVICE := angler
-PRODUCT_MODEL := Nexus 6P
-PRODUCT_MANUFACTURER := Huawei
+PRODUCT_DEVICE := kyleproxx
+PRODUCT_NAME := kyleproxx
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := GT-S758x
 
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=angler \
-    BUILD_FINGERPRINT=google/angler/angler:7.1.2/N2G48C/4104010:user/release-keys \
-    PRIVATE_BUILD_DESC="angler-user 7.1.2 N2G48C 4104010 release-keys"
+    PRODUCT_NAME=kyleproxx \
+    BUILD_FINGERPRINT=samsung/kyleproxx/kyleproxx:7.1.2/N2G48C/4104010:userdebug/release-keys \
+    PRIVATE_BUILD_DESC="kyleproxx-userdebug 7.1.2 N2G48C 4104010 release-keys"
 
 # Addtional backup tools for dirty flash
 PRODUCT_COPY_FILES += \
